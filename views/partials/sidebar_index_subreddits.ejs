@@ -1,0 +1,12 @@
+<h4 class="text-center">Subreddits</h4>
+<table class="table table-striped">
+    <tbody>
+<% if (subreddits != undefined) { 
+    subreddits.forEach((s) => { %>
+        <tr>
+        <td><a href="/r/<%= s.name %>">/r/<%= s.name %></a></td>
+        </tr>
+    <% }); %>
+<% } %>
+    </tbody>
+</table>   

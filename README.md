@@ -1,0 +1,2 @@
+mongod --smallfiles
+npm start
